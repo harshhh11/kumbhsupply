@@ -1,0 +1,15 @@
+{
+  "latitude": 23.18,
+  "longitude": 75.77,
+  "timezone": "Asia/Kolkata",
+  "elevation": 494.0,
+  "hourly_averages": {
+    "temperature_c": 31.5,
+    "apparent_temperature_c": 34.2,
+    "relative_humidity_pct": 48.0,
+    "wind_speed_kmh": 12.4,
+    "precipitation_mm": 0.0
+  },
+  "source": "Open-Meteo Weather API",
+  "status": "INGESTED_VERIFIED"
+}

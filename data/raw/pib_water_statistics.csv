@@ -1,0 +1,6 @@
+metric_name,official_value,unit,source_reference
+total_water_atms_deployed,1250,units,PIB PRID 2100106
+avg_daily_dispensation_per_atm,3600,liters/day,PIB PRID 2100106
+per_capita_daily_water_intake,3.8,liters/pilgrim/day,PIB Calibration
+water_quality_sensors_active,480,telemetry nodes,PIB PRID 2100106
+buffer_replenishment_threshold,25,percent of capacity,PIB Operation Manual

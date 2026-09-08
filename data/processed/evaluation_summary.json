@@ -1,0 +1,695 @@
+{
+  "emergency": {
+    "commodity_name": "Emergency",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 4.87,
+        "rmse": 10.63,
+        "mape": 56.63,
+        "wape": 42.34,
+        "r2": 0.7077
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 8.19,
+        "rmse": 18.8,
+        "mape": 116.4,
+        "wape": 71.23,
+        "r2": 0.0864
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 5.99,
+        "rmse": 17.27,
+        "mape": 57.71,
+        "wape": 52.12,
+        "r2": 0.2287
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 11.39,
+        "rmse": 14.4,
+        "mape": 268.85,
+        "wape": 99.03,
+        "r2": 0.4637
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 10.88,
+        "rmse": 27.0,
+        "mape": 113.95,
+        "wape": 94.94,
+        "r2": -0.8824
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 11.29,
+        "rmse": 24.52,
+        "mape": 165.52,
+        "wape": 98.54,
+        "r2": -0.5527
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 10.13,
+        "rmse": 23.38,
+        "mape": 144.7,
+        "wape": 88.39,
+        "r2": -0.4116
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 18.97,
+        "rmse": 23.52,
+        "mape": 395.03,
+        "wape": 165.56,
+        "r2": -0.4289
+      }
+    ]
+  },
+  "food": {
+    "commodity_name": "Food",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 3603.76,
+        "rmse": 6289.37,
+        "mape": 281.06,
+        "wape": 132.77,
+        "r2": -1.0584
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 2655.17,
+        "rmse": 4358.6,
+        "mape": 242.48,
+        "wape": 97.82,
+        "r2": 0.0114
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 1844.44,
+        "rmse": 3877.79,
+        "mape": 102.29,
+        "wape": 67.95,
+        "r2": 0.2175
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 3193.88,
+        "rmse": 4219.38,
+        "mape": 379.9,
+        "wape": 117.67,
+        "r2": 0.0736
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 1119.86,
+        "rmse": 3254.57,
+        "mape": 52.4,
+        "wape": 41.68,
+        "r2": 0.448
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 2726.69,
+        "rmse": 4501.19,
+        "mape": 264.17,
+        "wape": 101.49,
+        "r2": -0.0559
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 1201.43,
+        "rmse": 2825.63,
+        "mape": 78.4,
+        "wape": 44.72,
+        "r2": 0.5839
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 3123.63,
+        "rmse": 4328.82,
+        "mape": 391.49,
+        "wape": 116.27,
+        "r2": 0.0234
+      }
+    ]
+  },
+  "fuel": {
+    "commodity_name": "Fuel",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 195.51,
+        "rmse": 427.42,
+        "mape": 56.93,
+        "wape": 42.49,
+        "r2": 0.7049
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 327.63,
+        "rmse": 751.81,
+        "mape": 116.92,
+        "wape": 71.19,
+        "r2": 0.0871
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 240.31,
+        "rmse": 694.31,
+        "mape": 57.09,
+        "wape": 52.22,
+        "r2": 0.2214
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 473.4,
+        "rmse": 608.55,
+        "mape": 276.54,
+        "wape": 102.87,
+        "r2": 0.4019
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 434.75,
+        "rmse": 1079.6,
+        "mape": 113.58,
+        "wape": 94.8,
+        "r2": -0.8805
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 451.62,
+        "rmse": 981.12,
+        "mape": 165.65,
+        "wape": 98.48,
+        "r2": -0.5531
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 402.86,
+        "rmse": 939.47,
+        "mape": 143.32,
+        "wape": 87.85,
+        "r2": -0.424
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 752.23,
+        "rmse": 933.13,
+        "mape": 391.81,
+        "wape": 164.03,
+        "r2": -0.4049
+      }
+    ]
+  },
+  "hygiene": {
+    "commodity_name": "Hygiene",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 73.39,
+        "rmse": 161.59,
+        "mape": 56.74,
+        "wape": 42.5,
+        "r2": 0.7018
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 123.14,
+        "rmse": 282.81,
+        "mape": 117.16,
+        "wape": 71.31,
+        "r2": 0.0867
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 90.82,
+        "rmse": 263.38,
+        "mape": 56.97,
+        "wape": 52.6,
+        "r2": 0.2079
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 170.52,
+        "rmse": 218.1,
+        "mape": 268.02,
+        "wape": 98.75,
+        "r2": 0.4569
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 163.51,
+        "rmse": 406.27,
+        "mape": 114.14,
+        "wape": 95.03,
+        "r2": -0.8827
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 169.77,
+        "rmse": 369.05,
+        "mape": 166.06,
+        "wape": 98.67,
+        "r2": -0.5535
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 152.17,
+        "rmse": 352.73,
+        "mape": 144.94,
+        "wape": 88.43,
+        "r2": -0.4191
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 283.13,
+        "rmse": 352.32,
+        "mape": 403.95,
+        "wape": 164.55,
+        "r2": -0.4158
+      }
+    ]
+  },
+  "infra_materials": {
+    "commodity_name": "Infra_materials",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 9.72,
+        "rmse": 21.17,
+        "mape": 56.75,
+        "wape": 42.24,
+        "r2": 0.7091
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 16.4,
+        "rmse": 37.53,
+        "mape": 117.23,
+        "wape": 71.26,
+        "r2": 0.0856
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 12.09,
+        "rmse": 34.91,
+        "mape": 57.13,
+        "wape": 52.53,
+        "r2": 0.2087
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 22.95,
+        "rmse": 29.11,
+        "mape": 269.52,
+        "wape": 99.7,
+        "r2": 0.4499
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 21.75,
+        "rmse": 53.85,
+        "mape": 113.67,
+        "wape": 94.84,
+        "r2": -0.8807
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 22.59,
+        "rmse": 48.96,
+        "mape": 165.67,
+        "wape": 98.53,
+        "r2": -0.5544
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 20.09,
+        "rmse": 46.46,
+        "mape": 143.93,
+        "wape": 87.6,
+        "r2": -0.4
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 37.72,
+        "rmse": 46.75,
+        "mape": 397.34,
+        "wape": 164.51,
+        "r2": -0.4172
+      }
+    ]
+  },
+  "medical": {
+    "commodity_name": "Medical",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 15.73,
+        "rmse": 35.34,
+        "mape": 142.46,
+        "wape": 65.08,
+        "r2": 0.538
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 22.2,
+        "rmse": 51.1,
+        "mape": 348.13,
+        "wape": 91.87,
+        "r2": 0.034
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 25.42,
+        "rmse": 56.07,
+        "mape": 392.76,
+        "wape": 105.2,
+        "r2": -0.163
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 48.2,
+        "rmse": 57.02,
+        "mape": 1370.0,
+        "wape": 199.49,
+        "r2": -0.2028
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 23.16,
+        "rmse": 68.13,
+        "mape": 126.29,
+        "wape": 96.35,
+        "r2": -0.7155
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 26.91,
+        "rmse": 61.15,
+        "mape": 449.09,
+        "wape": 111.95,
+        "r2": -0.3821
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 36.38,
+        "rmse": 78.31,
+        "mape": 487.94,
+        "wape": 151.32,
+        "r2": -1.2666
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 74.9,
+        "rmse": 82.25,
+        "mape": 1875.92,
+        "wape": 311.55,
+        "r2": -1.5003
+      }
+    ]
+  },
+  "medicines": {
+    "commodity_name": "Medicines",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 105.29,
+        "rmse": 237.51,
+        "mape": 142.28,
+        "wape": 65.42,
+        "r2": 0.5313
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 147.77,
+        "rmse": 340.87,
+        "mape": 347.5,
+        "wape": 91.81,
+        "r2": 0.0347
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 263.93,
+        "rmse": 544.02,
+        "mape": 754.25,
+        "wape": 163.99,
+        "r2": -1.4588
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 325.81,
+        "rmse": 372.82,
+        "mape": 1407.33,
+        "wape": 202.44,
+        "r2": -0.1548
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 153.92,
+        "rmse": 454.44,
+        "mape": 127.09,
+        "wape": 96.13,
+        "r2": -0.7143
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 179.06,
+        "rmse": 407.72,
+        "mape": 448.6,
+        "wape": 111.83,
+        "r2": -0.3799
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 303.62,
+        "rmse": 647.96,
+        "mape": 605.04,
+        "wape": 189.63,
+        "r2": -2.4852
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 492.87,
+        "rmse": 543.64,
+        "mape": 1792.05,
+        "wape": 307.82,
+        "r2": -1.4534
+      }
+    ]
+  },
+  "sanitation": {
+    "commodity_name": "Sanitation",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 38.7,
+        "rmse": 84.82,
+        "mape": 56.59,
+        "wape": 42.14,
+        "r2": 0.706
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 65.41,
+        "rmse": 149.46,
+        "mape": 116.68,
+        "wape": 71.22,
+        "r2": 0.0871
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 48.07,
+        "rmse": 138.44,
+        "mape": 56.74,
+        "wape": 52.35,
+        "r2": 0.2167
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 91.2,
+        "rmse": 114.93,
+        "mape": 269.51,
+        "wape": 99.31,
+        "r2": 0.4602
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 86.74,
+        "rmse": 214.65,
+        "mape": 113.36,
+        "wape": 94.77,
+        "r2": -0.8809
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 90.09,
+        "rmse": 195.14,
+        "mape": 165.31,
+        "wape": 98.44,
+        "r2": -0.5546
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 80.67,
+        "rmse": 186.63,
+        "mape": 144.37,
+        "wape": 88.14,
+        "r2": -0.4219
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 150.09,
+        "rmse": 185.84,
+        "mape": 391.56,
+        "wape": 163.98,
+        "r2": -0.4099
+      }
+    ]
+  },
+  "water": {
+    "commodity_name": "Water",
+    "evaluations": [
+      {
+        "model": "Naive Persistence",
+        "horizon": "1h",
+        "mae": 8258.17,
+        "rmse": 12483.04,
+        "mape": 48.15,
+        "wape": 41.36,
+        "r2": 0.3782
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "1h",
+        "mae": 10465.33,
+        "rmse": 15702.5,
+        "mape": 80.15,
+        "wape": 52.42,
+        "r2": 0.016
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "1h",
+        "mae": 7717.76,
+        "rmse": 13255.09,
+        "mape": 41.23,
+        "wape": 38.66,
+        "r2": 0.2989
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "1h",
+        "mae": 10810.65,
+        "rmse": 13522.52,
+        "mape": 107.4,
+        "wape": 54.15,
+        "r2": 0.2703
+      },
+      {
+        "model": "Naive Persistence",
+        "horizon": "24h",
+        "mae": 9788.15,
+        "rmse": 19024.3,
+        "mape": 49.49,
+        "wape": 49.31,
+        "r2": -0.4354
+      },
+      {
+        "model": "Moving Average (24h)",
+        "horizon": "24h",
+        "mae": 12246.17,
+        "rmse": 19068.83,
+        "mape": 93.14,
+        "wape": 61.69,
+        "r2": -0.4422
+      },
+      {
+        "model": "Ridge Regularized",
+        "horizon": "24h",
+        "mae": 8834.2,
+        "rmse": 16321.41,
+        "mape": 52.79,
+        "wape": 44.5,
+        "r2": -0.0565
+      },
+      {
+        "model": "Gradient Boosted Trees",
+        "horizon": "24h",
+        "mae": 13661.41,
+        "rmse": 16847.8,
+        "mape": 113.47,
+        "wape": 68.82,
+        "r2": -0.1258
+      }
+    ]
+  }
+}

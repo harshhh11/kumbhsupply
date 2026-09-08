@@ -1,0 +1,4538 @@
+[
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 284956.4,
+    "burn_rate_hourly": 13297.9,
+    "estimated_stockout_hours": 21.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 13297.9,
+      "6h": 13479.7,
+      "12h": 14025.0,
+      "24h": 15115.6,
+      "48h": 15871.3
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 30059.8,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": 3655.89
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "lag_12h",
+        "contribution": -830.1
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 655.0
+      },
+      {
+        "feature": "temperature_c",
+        "contribution": -601.06
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 515668.1,
+    "burn_rate_hourly": 1375.9,
+    "estimated_stockout_hours": 374.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 1375.9,
+      "6h": 1346.9,
+      "12h": 1259.7,
+      "24h": 1085.3,
+      "48h": 1139.6
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 9342.4,
+    "top_causal_factors": [
+      {
+        "feature": "lag_3h",
+        "contribution": 708.91
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 369.99
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": -208.91
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -159.79
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 6019.1,
+    "burn_rate_hourly": 96.7,
+    "estimated_stockout_hours": 62.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 96.7,
+      "6h": 87.0,
+      "12h": 58.0,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 33.3,
+    "ci_95_upper": 160.1,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": 115.5
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": -21.05
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": 16.95
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 11.64
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -7.7
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 13440.8,
+    "burn_rate_hourly": 1526.0,
+    "estimated_stockout_hours": 8.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 1526.0,
+      "6h": 1373.4,
+      "12h": 915.6,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 1068.3,
+    "ci_95_upper": 1983.7,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": 1627.11
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": 346.23
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": -271.35
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 170.61
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -132.62
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 5450.9,
+    "burn_rate_hourly": 49.2,
+    "estimated_stockout_hours": 110.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 49.2,
+      "6h": 55.8,
+      "12h": 75.5,
+      "24h": 114.9,
+      "48h": 120.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 136.1,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -7.91
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -3.85
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 3.53
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 3.36
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 40230.6,
+    "burn_rate_hourly": 250.4,
+    "estimated_stockout_hours": 160.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 250.4,
+      "6h": 281.5,
+      "12h": 375.0,
+      "24h": 561.9,
+      "48h": 590.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 667.4,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -39.7
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -20.4
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 19.21
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 17.31
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 692.0,
+    "burn_rate_hourly": 6.4,
+    "estimated_stockout_hours": 108.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 6.4,
+      "6h": 7.2,
+      "12h": 9.7,
+      "24h": 14.6,
+      "48h": 15.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 16.6,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -0.94
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -0.52
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 0.46
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.44
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 5007.1,
+    "burn_rate_hourly": 94.8,
+    "estimated_stockout_hours": 52.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 94.8,
+      "6h": 107.0,
+      "12h": 143.6,
+      "24h": 216.8,
+      "48h": 227.6
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 252.8,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -14.73
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 8.33
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -7.47
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 6.71
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-a",
+    "zone_name": "Zone A \u2014 Mahakal Temple Precinct",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 4392.1,
+    "burn_rate_hourly": 12.7,
+    "estimated_stockout_hours": 346.5,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 12.7,
+      "6h": 14.3,
+      "12h": 19.3,
+      "24h": 29.2,
+      "48h": 30.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 33.5,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -2.03
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1.05
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 0.94
+      },
+      {
+        "feature": "sin_hour",
+        "contribution": -0.72
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 395320.4,
+    "burn_rate_hourly": 18115.6,
+    "estimated_stockout_hours": 21.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 18115.6,
+      "6h": 18328.5,
+      "12h": 18967.3,
+      "24h": 20245.0,
+      "48h": 21257.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 39829.9,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": 5377.66
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 1771.04
+      },
+      {
+        "feature": "lag_12h",
+        "contribution": -1544.53
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 1073.57
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 634810.5,
+    "burn_rate_hourly": 1727.0,
+    "estimated_stockout_hours": 367.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 1727.0,
+      "6h": 1718.4,
+      "12h": 1692.6,
+      "24h": 1641.2,
+      "48h": 1723.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 13801.3,
+    "top_causal_factors": [
+      {
+        "feature": "lag_3h",
+        "contribution": 1134.09
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": -370.93
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 343.98
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -274.11
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 7791.8,
+    "burn_rate_hourly": 116.4,
+    "estimated_stockout_hours": 67.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 116.4,
+      "6h": 104.7,
+      "12h": 69.8,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 47.1,
+    "ci_95_upper": 185.6,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": 182.95
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": -39.37
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -20.63
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": 18.22
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": -15.41
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 28628.0,
+    "burn_rate_hourly": 1678.9,
+    "estimated_stockout_hours": 17.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 1678.9,
+      "6h": 1511.0,
+      "12h": 1007.3,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 1208.3,
+    "ci_95_upper": 2149.4,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": 2537.57
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": -507.46
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -308.43
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": 260.58
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": -173.01
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 8082.6,
+    "burn_rate_hourly": 56.7,
+    "estimated_stockout_hours": 142.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 56.7,
+      "6h": 65.4,
+      "12h": 91.2,
+      "24h": 142.9,
+      "48h": 150.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 153.1,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 6.61
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -3.85
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -3.83
+      },
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -3.39
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 49288.0,
+    "burn_rate_hourly": 293.8,
+    "estimated_stockout_hours": 167.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 293.8,
+      "6h": 334.1,
+      "12h": 454.9,
+      "24h": 696.7,
+      "48h": 731.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 765.1,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 35.92
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -20.4
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -19.22
+      },
+      {
+        "feature": "lag_12h",
+        "contribution": -17.81
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 2705.1,
+    "burn_rate_hourly": 8.1,
+    "estimated_stockout_hours": 333.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 8.1,
+      "6h": 9.1,
+      "12h": 12.2,
+      "24h": 18.4,
+      "48h": 19.3
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 21.2,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 0.86
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -0.52
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -0.46
+      },
+      {
+        "feature": "sin_hour",
+        "contribution": -0.35
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 12148.2,
+    "burn_rate_hourly": 115.8,
+    "estimated_stockout_hours": 104.9,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 115.8,
+      "6h": 131.6,
+      "12h": 179.0,
+      "24h": 273.7,
+      "48h": 287.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 299.8,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 15.57
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -7.47
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -7.13
+      },
+      {
+        "feature": "lag_12h",
+        "contribution": -6.1
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-b",
+    "zone_name": "Zone B \u2014 Ram Ghat Gathering Sector",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 7725.2,
+    "burn_rate_hourly": 16.0,
+    "estimated_stockout_hours": 484.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 16.0,
+      "6h": 18.0,
+      "12h": 24.1,
+      "24h": 36.2,
+      "48h": 38.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 39.3,
+    "top_causal_factors": [
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 1.77
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": 1.16
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1.05
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -0.98
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 297716.9,
+    "burn_rate_hourly": 7366.5,
+    "estimated_stockout_hours": 40.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 7366.5,
+      "6h": 7583.4,
+      "12h": 8234.1,
+      "24h": 9535.4,
+      "48h": 10012.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 19241.4,
+    "top_causal_factors": [
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -848.69
+      },
+      {
+        "feature": "lag_48h",
+        "contribution": -788.6
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -642.47
+      },
+      {
+        "feature": "temperature_c",
+        "contribution": -601.06
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 213917.6,
+    "burn_rate_hourly": 1005.7,
+    "estimated_stockout_hours": 212.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 1005.7,
+      "6h": 960.9,
+      "12h": 826.6,
+      "24h": 557.9,
+      "48h": 585.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 6304.3,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 430.16
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 402.94
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -230.64
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -224.01
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 1726.8,
+    "burn_rate_hourly": 17.7,
+    "estimated_stockout_hours": 97.5,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 17.7,
+      "6h": 16.8,
+      "12h": 13.9,
+      "24h": 8.1,
+      "48h": 8.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 36.5,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -25.54
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 17.05
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 16.79
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 13.94
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 11.64
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 8336.5,
+    "burn_rate_hourly": 329.4,
+    "estimated_stockout_hours": 25.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 329.4,
+      "6h": 296.4,
+      "12h": 197.6,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 191.3,
+    "ci_95_upper": 467.5,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -300.93
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 264.06
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 254.23
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 170.61
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 152.14
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 3706.0,
+    "burn_rate_hourly": 30.3,
+    "estimated_stockout_hours": 122.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 30.3,
+      "6h": 35.1,
+      "12h": 49.6,
+      "24h": 78.4,
+      "48h": 82.3
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 78.0,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -14.06
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -5.6
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -4.63
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 4.43
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 22630.2,
+    "burn_rate_hourly": 158.2,
+    "estimated_stockout_hours": 143.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 158.2,
+      "6h": 180.1,
+      "12h": 246.1,
+      "24h": 377.9,
+      "48h": 396.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 390.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -70.58
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -24.72
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 22.89
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -20.4
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 555.9,
+    "burn_rate_hourly": 4.2,
+    "estimated_stockout_hours": 132.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 4.2,
+      "6h": 4.8,
+      "12h": 6.4,
+      "24h": 9.7,
+      "48h": 10.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 10.2,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -1.67
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.57
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.55
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -0.52
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 4859.7,
+    "burn_rate_hourly": 61.4,
+    "estimated_stockout_hours": 79.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 61.4,
+      "6h": 70.0,
+      "12h": 95.7,
+      "24h": 147.0,
+      "48h": 154.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 157.1,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -26.2
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 8.63
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -7.8
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 7.7
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-c",
+    "zone_name": "Zone C \u2014 Triveni Encampments & Transit Hub",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 2712.9,
+    "burn_rate_hourly": 8.1,
+    "estimated_stockout_hours": 334.5,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 8.1,
+      "6h": 9.2,
+      "12h": 12.6,
+      "24h": 19.4,
+      "48h": 20.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 20.0,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -3.61
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1.05
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 0.97
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.92
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 156450.8,
+    "burn_rate_hourly": 5178.4,
+    "estimated_stockout_hours": 30.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 5178.4,
+      "6h": 5437.8,
+      "12h": 6215.9,
+      "24h": 7772.2,
+      "48h": 8160.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 12864.7,
+    "top_causal_factors": [
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -917.33
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": -833.87
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -793.24
+      },
+      {
+        "feature": "lag_48h",
+        "contribution": -792.52
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 83413.7,
+    "burn_rate_hourly": 814.7,
+    "estimated_stockout_hours": 102.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 814.7,
+      "6h": 776.8,
+      "12h": 662.9,
+      "24h": 435.2,
+      "48h": 457.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 4689.7,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 444.44
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -257.1
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -242.13
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 210.78
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 454.8,
+    "burn_rate_hourly": 16.9,
+    "estimated_stockout_hours": 26.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 16.9,
+      "6h": 15.8,
+      "12h": 12.2,
+      "24h": 5.0,
+      "48h": 5.3
+    },
+    "ci_95_lower": 2.1,
+    "ci_95_upper": 31.8,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -37.8
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 20.09
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 19.56
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 15.2
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 11.64
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 5030.4,
+    "burn_rate_hourly": 260.7,
+    "estimated_stockout_hours": 19.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 260.7,
+      "6h": 234.7,
+      "12h": 156.4,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 162.1,
+    "ci_95_upper": 359.4,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -528.54
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 302.63
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 291.15
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 181.39
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 170.61
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 2405.3,
+    "burn_rate_hourly": 25.8,
+    "estimated_stockout_hours": 93.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 25.8,
+      "6h": 29.9,
+      "12h": 42.0,
+      "24h": 66.4,
+      "48h": 69.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 59.1,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -15.2
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -7.78
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -5.16
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 5.03
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 21483.0,
+    "burn_rate_hourly": 135.1,
+    "estimated_stockout_hours": 159.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 135.1,
+      "6h": 153.7,
+      "12h": 209.5,
+      "24h": 321.2,
+      "48h": 337.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 309.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -76.29
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -32.17
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 24.04
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -22.68
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 850.4,
+    "burn_rate_hourly": 3.5,
+    "estimated_stockout_hours": 243.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 3.5,
+      "6h": 4.0,
+      "12h": 5.4,
+      "24h": 8.3,
+      "48h": 8.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 7.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -1.81
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.75
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.61
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.57
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 4731.0,
+    "burn_rate_hourly": 51.2,
+    "estimated_stockout_hours": 92.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 51.2,
+      "6h": 58.5,
+      "12h": 80.5,
+      "24h": 124.4,
+      "48h": 130.6
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 115.5,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -28.32
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -10.73
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 9.18
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -8.69
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-d",
+    "zone_name": "Zone D \u2014 Nanakheda Southern Staging Hub",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 1271.9,
+    "burn_rate_hourly": 6.9,
+    "estimated_stockout_hours": 185.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 6.9,
+      "6h": 7.8,
+      "12h": 10.7,
+      "24h": 16.5,
+      "48h": 17.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 15.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -3.9
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.11
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.08
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1.05
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 93322.4,
+    "burn_rate_hourly": 2842.4,
+    "estimated_stockout_hours": 32.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2842.4,
+      "6h": 3116.0,
+      "12h": 3936.8,
+      "24h": 5578.5,
+      "48h": 5857.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 9104.4,
+    "top_causal_factors": [
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -1910.71
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -1159.65
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -1026.29
+      },
+      {
+        "feature": "lag_48h",
+        "contribution": -989.3
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 119101.4,
+    "burn_rate_hourly": 693.8,
+    "estimated_stockout_hours": 171.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 693.8,
+      "6h": 645.0,
+      "12h": 498.9,
+      "24h": 206.5,
+      "48h": 216.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 3047.7,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 461.79
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -290.95
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -270.89
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -207.87
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 751.0,
+    "burn_rate_hourly": 11.2,
+    "estimated_stockout_hours": 67.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 11.2,
+      "6h": 10.5,
+      "12h": 8.4,
+      "24h": 4.2,
+      "48h": 4.5
+    },
+    "ci_95_lower": 2.6,
+    "ci_95_upper": 19.8,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -59.27
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 23.75
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 22.53
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 19.53
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 17.87
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 4007.4,
+    "burn_rate_hourly": 148.6,
+    "estimated_stockout_hours": 27.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 148.6,
+      "6h": 134.8,
+      "12h": 93.5,
+      "24h": 10.8,
+      "48h": 11.3
+    },
+    "ci_95_lower": 93.1,
+    "ci_95_upper": 204.1,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -863.27
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 371.14
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 341.2
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 232.32
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 230.35
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 2427.6,
+    "burn_rate_hourly": 21.4,
+    "estimated_stockout_hours": 113.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 21.4,
+      "6h": 24.5,
+      "12h": 34.0,
+      "24h": 53.1,
+      "48h": 55.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 45.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -17.0
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -9.11
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 6.11
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -5.84
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 12113.6,
+    "burn_rate_hourly": 108.0,
+    "estimated_stockout_hours": 112.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 108.0,
+      "6h": 123.2,
+      "12h": 168.8,
+      "24h": 259.9,
+      "48h": 272.9
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 231.7,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -85.35
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -38.61
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 25.79
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -25.67
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 178.6,
+    "burn_rate_hourly": 2.8,
+    "estimated_stockout_hours": 64.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2.8,
+      "6h": 3.2,
+      "12h": 4.3,
+      "24h": 6.7,
+      "48h": 7.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 6.0,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -2.02
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.88
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.65
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.63
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 2451.7,
+    "burn_rate_hourly": 40.7,
+    "estimated_stockout_hours": 60.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 40.7,
+      "6h": 46.5,
+      "12h": 63.9,
+      "24h": 98.6,
+      "48h": 103.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 84.7,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -31.68
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -13.01
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 10.24
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -9.84
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-e",
+    "zone_name": "Zone E \u2014 Mangalnath Ridge Sector",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 724.6,
+    "burn_rate_hourly": 5.4,
+    "estimated_stockout_hours": 134.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 5.4,
+      "6h": 6.2,
+      "12h": 8.5,
+      "24h": 13.2,
+      "48h": 13.9
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 11.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -4.37
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.33
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.27
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -1.16
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 152189.6,
+    "burn_rate_hourly": 5918.2,
+    "estimated_stockout_hours": 25.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 5918.2,
+      "6h": 6155.2,
+      "12h": 6866.1,
+      "24h": 8288.0,
+      "48h": 8702.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 14579.4,
+    "top_causal_factors": [
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -882.43
+      },
+      {
+        "feature": "lag_48h",
+        "contribution": -835.27
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -762.19
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": -723.58
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 149206.4,
+    "burn_rate_hourly": 863.8,
+    "estimated_stockout_hours": 172.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 863.8,
+      "6h": 821.9,
+      "12h": 696.3,
+      "24h": 445.1,
+      "48h": 467.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 5085.8,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 436.95
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 264.55
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -253.11
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -232.92
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 1136.8,
+    "burn_rate_hourly": 14.6,
+    "estimated_stockout_hours": 78.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 14.6,
+      "6h": 13.9,
+      "12h": 12.0,
+      "24h": 8.1,
+      "48h": 8.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 30.2,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -34.74
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 18.66
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 18.3
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 13.94
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 11.64
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 7162.4,
+    "burn_rate_hourly": 254.7,
+    "estimated_stockout_hours": 28.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 254.7,
+      "6h": 229.2,
+      "12h": 152.8,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 147.7,
+    "ci_95_upper": 361.6,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -461.6
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 281.99
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 278.08
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 170.61
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 158.9
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 2140.2,
+    "burn_rate_hourly": 28.0,
+    "estimated_stockout_hours": 76.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 28.0,
+      "6h": 32.3,
+      "12h": 44.9,
+      "24h": 70.3,
+      "48h": 73.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 67.4,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -14.62
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -6.86
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -5.08
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 4.95
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 24360.9,
+    "burn_rate_hourly": 145.0,
+    "estimated_stockout_hours": 168.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 145.0,
+      "6h": 164.2,
+      "12h": 221.9,
+      "24h": 337.2,
+      "48h": 354.1
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 340.9,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -73.39
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -29.4
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 23.78
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -22.33
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 932.9,
+    "burn_rate_hourly": 3.6,
+    "estimated_stockout_hours": 256.9,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 3.6,
+      "6h": 4.1,
+      "12h": 5.7,
+      "24h": 8.8,
+      "48h": 9.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 8.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -1.74
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.71
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.6
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.56
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 2759.3,
+    "burn_rate_hourly": 53.8,
+    "estimated_stockout_hours": 51.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 53.8,
+      "6h": 61.5,
+      "12h": 84.6,
+      "24h": 130.9,
+      "48h": 137.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 125.6,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -27.24
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -9.89
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 8.92
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -8.56
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-f",
+    "zone_name": "Zone F \u2014 Siddhwat Northern Ghats",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 1364.9,
+    "burn_rate_hourly": 7.2,
+    "estimated_stockout_hours": 190.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 7.2,
+      "6h": 8.2,
+      "12h": 11.3,
+      "24h": 17.4,
+      "48h": 18.3
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 16.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -3.75
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1.05
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.05
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.02
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 130189.7,
+    "burn_rate_hourly": 2273.3,
+    "estimated_stockout_hours": 57.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2273.3,
+      "6h": 2537.6,
+      "12h": 3330.5,
+      "24h": 4916.4,
+      "48h": 5162.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 7338.3,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -2144.86
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -1293.19
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": -1082.29
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -1071.88
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 53294.3,
+    "burn_rate_hourly": 652.7,
+    "estimated_stockout_hours": 81.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 652.7,
+      "6h": 602.0,
+      "12h": 449.7,
+      "24h": 145.3,
+      "48h": 152.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 2873.4,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 468.19
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -306.7
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -282.92
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -209.57
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 523.3,
+    "burn_rate_hourly": 9.5,
+    "estimated_stockout_hours": 55.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 9.5,
+      "6h": 8.9,
+      "12h": 7.1,
+      "24h": 3.6,
+      "48h": 3.8
+    },
+    "ci_95_lower": 2.2,
+    "ci_95_upper": 16.7,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -62.33
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 24.44
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 22.97
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 20.12
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 19.47
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 3469.7,
+    "burn_rate_hourly": 116.1,
+    "estimated_stockout_hours": 29.9,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 116.1,
+      "6h": 106.1,
+      "12h": 76.0,
+      "24h": 15.8,
+      "48h": 16.6
+    },
+    "ci_95_lower": 69.0,
+    "ci_95_upper": 163.3,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -916.83
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 381.06
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 348.16
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 259.34
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 225.77
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 1768.6,
+    "burn_rate_hourly": 19.4,
+    "estimated_stockout_hours": 91.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 19.4,
+      "6h": 22.3,
+      "12h": 31.2,
+      "24h": 49.1,
+      "48h": 51.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 41.1,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -17.76
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -9.52
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 6.25
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -6.16
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 12751.5,
+    "burn_rate_hourly": 98.2,
+    "estimated_stockout_hours": 129.9,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 98.2,
+      "6h": 112.0,
+      "12h": 153.4,
+      "24h": 236.3,
+      "48h": 248.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 202.5,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -89.14
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -41.07
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -27.05
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 26.33
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 436.7,
+    "burn_rate_hourly": 2.5,
+    "estimated_stockout_hours": 175.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2.5,
+      "6h": 2.8,
+      "12h": 3.9,
+      "24h": 6.0,
+      "48h": 6.3
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 5.2,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -2.11
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.94
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.68
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.66
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 1471.3,
+    "burn_rate_hourly": 36.8,
+    "estimated_stockout_hours": 39.9,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 36.8,
+      "6h": 42.2,
+      "12h": 58.3,
+      "24h": 90.4,
+      "48h": 94.9
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 78.0,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -33.09
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -13.34
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 10.68
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -10.37
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-g",
+    "zone_name": "Zone G \u2014 Bhartrihari Gufa Encampments",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 956.8,
+    "burn_rate_hourly": 4.8,
+    "estimated_stockout_hours": 200.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 4.8,
+      "6h": 5.5,
+      "12h": 7.7,
+      "24h": 12.1,
+      "48h": 12.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 10.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -4.56
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.42
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": -1.34
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.29
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 115501.6,
+    "burn_rate_hourly": 1761.5,
+    "estimated_stockout_hours": 65.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 1761.5,
+      "6h": 2017.5,
+      "12h": 2785.4,
+      "24h": 4321.2,
+      "48h": 4537.3
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 6368.5,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -2353.47
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -1404.06
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": -1147.13
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -1119.82
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 101570.4,
+    "burn_rate_hourly": 641.3,
+    "estimated_stockout_hours": 158.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 641.3,
+      "6h": 584.1,
+      "12h": 412.6,
+      "24h": 69.7,
+      "48h": 73.1
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 2668.5,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 472.04
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -316.58
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -295.57
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -213.22
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 380.3,
+    "burn_rate_hourly": 9.4,
+    "estimated_stockout_hours": 40.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 9.4,
+      "6h": 8.7,
+      "12h": 6.4,
+      "24h": 1.7,
+      "48h": 1.8
+    },
+    "ci_95_lower": 3.4,
+    "ci_95_upper": 15.5,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -65.4
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 25.23
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 23.66
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 22.47
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 19.76
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 1265.4,
+    "burn_rate_hourly": 96.2,
+    "estimated_stockout_hours": 13.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 96.2,
+      "6h": 88.1,
+      "12h": 63.8,
+      "24h": 15.2,
+      "48h": 16.0
+    },
+    "ci_95_lower": 57.2,
+    "ci_95_upper": 135.2,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -977.08
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 393.02
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 354.92
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 289.66
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 231.11
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 1473.7,
+    "burn_rate_hourly": 17.5,
+    "estimated_stockout_hours": 84.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 17.5,
+      "6h": 20.3,
+      "12h": 28.5,
+      "24h": 45.0,
+      "48h": 47.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 35.2,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -18.55
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -10.13
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 6.58
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -6.36
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 7909.1,
+    "burn_rate_hourly": 89.7,
+    "estimated_stockout_hours": 88.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 89.7,
+      "6h": 102.4,
+      "12h": 140.5,
+      "24h": 216.7,
+      "48h": 227.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 184.2,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -93.13
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -42.33
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -27.93
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 27.05
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 384.5,
+    "burn_rate_hourly": 2.2,
+    "estimated_stockout_hours": 171.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2.2,
+      "6h": 2.6,
+      "12h": 3.6,
+      "24h": 5.6,
+      "48h": 5.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 4.6,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -2.21
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.99
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.7
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.67
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 1350.0,
+    "burn_rate_hourly": 33.6,
+    "estimated_stockout_hours": 40.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 33.6,
+      "6h": 38.5,
+      "12h": 53.4,
+      "24h": 83.1,
+      "48h": 87.3
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 70.1,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -34.57
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -13.86
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 11.26
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -10.7
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-h",
+    "zone_name": "Zone H \u2014 Chintaman Western Peripheral",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 513.3,
+    "burn_rate_hourly": 4.4,
+    "estimated_stockout_hours": 116.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 4.4,
+      "6h": 5.1,
+      "12h": 7.1,
+      "24h": 11.1,
+      "48h": 11.6
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 9.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -4.76
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.47
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": -1.37
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.36
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 140978.2,
+    "burn_rate_hourly": 4083.5,
+    "estimated_stockout_hours": 34.5,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 4083.5,
+      "6h": 4341.2,
+      "12h": 5114.4,
+      "24h": 6660.6,
+      "48h": 6993.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 10849.1,
+    "top_causal_factors": [
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -1126.56
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -988.76
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -976.45
+      },
+      {
+        "feature": "lag_48h",
+        "contribution": -954.43
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 153699.1,
+    "burn_rate_hourly": 741.7,
+    "estimated_stockout_hours": 207.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 741.7,
+      "6h": 696.7,
+      "12h": 561.8,
+      "24h": 291.9,
+      "48h": 306.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 3704.3,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 450.53
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -271.65
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -257.73
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -200.99
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 592.9,
+    "burn_rate_hourly": 19.8,
+    "estimated_stockout_hours": 29.9,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 19.8,
+      "6h": 17.9,
+      "12h": 12.1,
+      "24h": 0.6,
+      "48h": 0.6
+    },
+    "ci_95_lower": 8.1,
+    "ci_95_upper": 31.5,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -43.94
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 21.95
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 21.41
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 18.09
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 13.66
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 1873.9,
+    "burn_rate_hourly": 288.4,
+    "estimated_stockout_hours": 6.5,
+    "shortage_risk_level": "WARNING",
+    "forecast_demand": {
+      "1h": 288.4,
+      "6h": 259.6,
+      "12h": 173.1,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 206.5,
+    "ci_95_upper": 370.3,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -635.66
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 341.94
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 322.12
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 210.84
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 176.08
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 1366.7,
+    "burn_rate_hourly": 24.2,
+    "estimated_stockout_hours": 56.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 24.2,
+      "6h": 27.7,
+      "12h": 38.4,
+      "24h": 59.7,
+      "48h": 62.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 55.2,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -16.18
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -8.12
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 5.59
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -5.46
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 16620.6,
+    "burn_rate_hourly": 122.4,
+    "estimated_stockout_hours": 135.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 122.4,
+      "6h": 138.8,
+      "12h": 188.3,
+      "24h": 287.1,
+      "48h": 301.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 271.4,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -81.2
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -35.38
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 24.99
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -23.96
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 412.9,
+    "burn_rate_hourly": 3.2,
+    "estimated_stockout_hours": 129.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 3.2,
+      "6h": 3.6,
+      "12h": 4.9,
+      "24h": 7.4,
+      "48h": 7.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 7.0,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -1.92
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.81
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.61
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.6
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 2775.9,
+    "burn_rate_hourly": 46.5,
+    "estimated_stockout_hours": 59.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 46.5,
+      "6h": 52.9,
+      "12h": 72.1,
+      "24h": 110.5,
+      "48h": 116.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 103.9,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -30.14
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -11.52
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 9.67
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 9.33
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-i",
+    "zone_name": "Zone I \u2014 Kalbhairav Northern Sector",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 1382.4,
+    "burn_rate_hourly": 6.1,
+    "estimated_stockout_hours": 225.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 6.1,
+      "6h": 7.0,
+      "12h": 9.6,
+      "24h": 14.7,
+      "48h": 15.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 13.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -4.15
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.22
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.19
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -1.08
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 39985.7,
+    "burn_rate_hourly": 1232.4,
+    "estimated_stockout_hours": 32.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 1232.4,
+      "6h": 1504.8,
+      "12h": 2322.2,
+      "24h": 3956.9,
+      "48h": 4154.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 5193.3,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -2574.81
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -1494.5
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": -1215.59
+      },
+      {
+        "feature": "lag_48h",
+        "contribution": -1135.65
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 76882.8,
+    "burn_rate_hourly": 588.5,
+    "estimated_stockout_hours": 130.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 588.5,
+      "6h": 532.9,
+      "12h": 366.1,
+      "24h": 32.6,
+      "48h": 34.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 2091.8,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 474.04
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -318.86
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -298.46
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -217.04
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 346.3,
+    "burn_rate_hourly": 6.4,
+    "estimated_stockout_hours": 53.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 6.4,
+      "6h": 6.2,
+      "12h": 5.3,
+      "24h": 3.5,
+      "48h": 3.7
+    },
+    "ci_95_lower": 0.8,
+    "ci_95_upper": 12.1,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -71.53
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 25.98
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 24.23
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 23.75
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 20.97
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 993.5,
+    "burn_rate_hourly": 107.8,
+    "estimated_stockout_hours": 9.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 107.8,
+      "6h": 97.6,
+      "12h": 66.9,
+      "24h": 5.6,
+      "48h": 5.8
+    },
+    "ci_95_lower": 69.0,
+    "ci_95_upper": 146.7,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -1017.25
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 403.61
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 365.95
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 306.07
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 244.12
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 1275.2,
+    "burn_rate_hourly": 17.0,
+    "estimated_stockout_hours": 75.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 17.0,
+      "6h": 19.6,
+      "12h": 27.4,
+      "24h": 43.0,
+      "48h": 45.1
+    },
+    "ci_95_lower": 0.3,
+    "ci_95_upper": 33.6,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -18.73
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -10.28
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 6.66
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -6.4
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 9475.2,
+    "burn_rate_hourly": 84.9,
+    "estimated_stockout_hours": 111.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 84.9,
+      "6h": 97.2,
+      "12h": 134.4,
+      "24h": 208.7,
+      "48h": 219.1
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 170.7,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -94.04
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -43.43
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -28.13
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 26.97
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 146.3,
+    "burn_rate_hourly": 2.1,
+    "estimated_stockout_hours": 68.8,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2.1,
+      "6h": 2.4,
+      "12h": 3.4,
+      "24h": 5.3,
+      "48h": 5.6
+    },
+    "ci_95_lower": 0.1,
+    "ci_95_upper": 4.1,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -2.23
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.02
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.71
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 0.68
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 989.3,
+    "burn_rate_hourly": 32.3,
+    "estimated_stockout_hours": 30.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 32.3,
+      "6h": 37.0,
+      "12h": 51.1,
+      "24h": 79.3,
+      "48h": 83.3
+    },
+    "ci_95_lower": 0.3,
+    "ci_95_upper": 64.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -34.91
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -14.37
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 11.33
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -10.78
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-j",
+    "zone_name": "Zone J \u2014 Agar Road Logistics Ingress",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 499.2,
+    "burn_rate_hourly": 4.1,
+    "estimated_stockout_hours": 120.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 4.1,
+      "6h": 4.8,
+      "12h": 6.7,
+      "24h": 10.5,
+      "48h": 11.1
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 8.4,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -4.81
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.53
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": -1.46
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.38
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 71378.3,
+    "burn_rate_hourly": 2604.0,
+    "estimated_stockout_hours": 27.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2604.0,
+      "6h": 2878.4,
+      "12h": 3701.5,
+      "24h": 5347.8,
+      "48h": 5615.2
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 7548.0,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -1966.95
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": -1211.92
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -1051.23
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": -1000.31
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 68682.3,
+    "burn_rate_hourly": 688.7,
+    "estimated_stockout_hours": 99.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 688.7,
+      "6h": 638.6,
+      "12h": 488.2,
+      "24h": 187.5,
+      "48h": 196.9
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 3132.5,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 460.68
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -293.45
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -277.47
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "lag_24h",
+        "contribution": -209.41
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 744.7,
+    "burn_rate_hourly": 9.6,
+    "estimated_stockout_hours": 77.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 9.6,
+      "6h": 9.1,
+      "12h": 7.7,
+      "24h": 4.8,
+      "48h": 5.0
+    },
+    "ci_95_lower": 1.3,
+    "ci_95_upper": 18.0,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -59.27
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 23.94
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 22.27
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 19.3
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 18.5
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 1876.1,
+    "burn_rate_hourly": 178.7,
+    "estimated_stockout_hours": 10.5,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 178.7,
+      "6h": 160.8,
+      "12h": 107.2,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 124.2,
+    "ci_95_upper": 233.2,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -809.72
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 372.64
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 337.33
+      },
+      {
+        "feature": "crowd_rolling_mean_6h",
+        "contribution": 238.44
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 222.04
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 1051.7,
+    "burn_rate_hourly": 20.5,
+    "estimated_stockout_hours": 51.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 20.5,
+      "6h": 23.6,
+      "12h": 32.9,
+      "24h": 51.6,
+      "48h": 54.1
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 44.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -17.42
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -9.2
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 6.17
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -5.89
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 8893.8,
+    "burn_rate_hourly": 102.6,
+    "estimated_stockout_hours": 86.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 102.6,
+      "6h": 117.4,
+      "12h": 161.7,
+      "24h": 250.3,
+      "48h": 262.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 219.2,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -87.42
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -39.51
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 25.94
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -25.89
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 572.3,
+    "burn_rate_hourly": 2.7,
+    "estimated_stockout_hours": 214.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 2.7,
+      "6h": 3.0,
+      "12h": 4.2,
+      "24h": 6.4,
+      "48h": 6.7
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 5.8,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -2.07
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.9
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.65
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.64
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 2176.6,
+    "burn_rate_hourly": 39.3,
+    "estimated_stockout_hours": 55.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 39.3,
+      "6h": 45.0,
+      "12h": 62.0,
+      "24h": 96.1,
+      "48h": 100.9
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 84.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -32.45
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -12.9
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 10.42
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -9.92
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-k",
+    "zone_name": "Zone K \u2014 Sandipani Cultural Precinct",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 850.8,
+    "burn_rate_hourly": 5.1,
+    "estimated_stockout_hours": 168.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 5.1,
+      "6h": 5.8,
+      "12h": 8.1,
+      "24h": 12.8,
+      "48h": 13.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 11.0,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -4.47
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -1.37
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 1.31
+      },
+      {
+        "feature": "lag_6h",
+        "contribution": -1.31
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "water",
+    "commodity_name": "Water",
+    "current_stock": 111471.9,
+    "burn_rate_hourly": 7612.2,
+    "estimated_stockout_hours": 14.6,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 7612.2,
+      "6h": 7824.3,
+      "12h": 8460.7,
+      "24h": 9733.5,
+      "48h": 10220.1
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 18789.5,
+    "top_causal_factors": [
+      {
+        "feature": "cos_hour",
+        "contribution": -1925.14
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -828.59
+      },
+      {
+        "feature": "lag_48h",
+        "contribution": -707.77
+      },
+      {
+        "feature": "temperature_c",
+        "contribution": -601.06
+      },
+      {
+        "feature": "heat_index",
+        "contribution": -584.37
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "food",
+    "commodity_name": "Food",
+    "current_stock": 293587.6,
+    "burn_rate_hourly": 994.4,
+    "estimated_stockout_hours": 295.2,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 994.4,
+      "6h": 954.8,
+      "12h": 835.9,
+      "24h": 598.1,
+      "48h": 628.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 6217.9,
+    "top_causal_factors": [
+      {
+        "feature": "lag_1h",
+        "contribution": 433.07
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 384.77
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -259.56
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -233.17
+      },
+      {
+        "feature": "crowd_count",
+        "contribution": -218.71
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "medical",
+    "commodity_name": "Medical",
+    "current_stock": 819.8,
+    "burn_rate_hourly": 21.8,
+    "estimated_stockout_hours": 37.5,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 21.8,
+      "6h": 20.2,
+      "12h": 15.3,
+      "24h": 5.5,
+      "48h": 5.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 43.6,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -19.41
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 17.21
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 15.9
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 13.47
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 11.64
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "medicines",
+    "commodity_name": "Medicines",
+    "current_stock": 6920.7,
+    "burn_rate_hourly": 335.0,
+    "estimated_stockout_hours": 20.7,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 335.0,
+      "6h": 301.5,
+      "12h": 201.0,
+      "24h": 0.0,
+      "48h": 0.0
+    },
+    "ci_95_lower": 190.3,
+    "ci_95_upper": 479.7,
+    "top_causal_factors": [
+      {
+        "feature": "rolling_min_24h",
+        "contribution": -274.15
+      },
+      {
+        "feature": "rolling_max_24h",
+        "contribution": 255.22
+      },
+      {
+        "feature": "rolling_mean_24h",
+        "contribution": 242.74
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": 170.61
+      },
+      {
+        "feature": "lag_3h",
+        "contribution": 145.89
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "sanitation",
+    "commodity_name": "Sanitation",
+    "current_stock": 5510.0,
+    "burn_rate_hourly": 32.7,
+    "estimated_stockout_hours": 168.3,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 32.7,
+      "6h": 37.4,
+      "12h": 51.4,
+      "24h": 79.4,
+      "48h": 83.4
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 84.4,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -13.73
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -9.45
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -5.01
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -4.68
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 4.54
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "fuel",
+    "commodity_name": "Fuel",
+    "current_stock": 23981.4,
+    "burn_rate_hourly": 167.8,
+    "estimated_stockout_hours": 143.0,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 167.8,
+      "6h": 189.1,
+      "12h": 253.0,
+      "24h": 380.9,
+      "48h": 399.9
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 427.1,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -68.91
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -44.77
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 23.21
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -21.32
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -20.57
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "emergency",
+    "commodity_name": "Emergency",
+    "current_stock": 429.7,
+    "burn_rate_hourly": 4.3,
+    "estimated_stockout_hours": 101.1,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 4.3,
+      "6h": 4.8,
+      "12h": 6.5,
+      "24h": 10.0,
+      "48h": 10.5
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 10.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -1.63
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -1.09
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 0.57
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -0.54
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -0.52
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "hygiene",
+    "commodity_name": "Hygiene",
+    "current_stock": 2954.7,
+    "burn_rate_hourly": 63.5,
+    "estimated_stockout_hours": 46.5,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 63.5,
+      "6h": 71.9,
+      "12h": 97.1,
+      "24h": 147.7,
+      "48h": 155.0
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 156.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -25.58
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -16.63
+      },
+      {
+        "feature": "lag_1h",
+        "contribution": 8.77
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -7.88
+      },
+      {
+        "feature": "rolling_std_6h",
+        "contribution": -7.53
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  },
+  {
+    "zone_id": "zone-l",
+    "zone_name": "Zone L \u2014 Kshipra East Bank Ghats",
+    "commodity_id": "infra_materials",
+    "commodity_name": "Infra_materials",
+    "current_stock": 3445.1,
+    "burn_rate_hourly": 8.6,
+    "estimated_stockout_hours": 399.4,
+    "shortage_risk_level": "NOMINAL",
+    "forecast_demand": {
+      "1h": 8.6,
+      "6h": 9.7,
+      "12h": 13.1,
+      "24h": 19.8,
+      "48h": 20.8
+    },
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 22.3,
+    "top_causal_factors": [
+      {
+        "feature": "crowd_count",
+        "contribution": -3.53
+      },
+      {
+        "feature": "is_weekend",
+        "contribution": -2.22
+      },
+      {
+        "feature": "cos_hour",
+        "contribution": -1.05
+      },
+      {
+        "feature": "lag_2h",
+        "contribution": 0.95
+      },
+      {
+        "feature": "crowd_lag_1h",
+        "contribution": -0.93
+      }
+    ],
+    "provenance": "DERIVED (Trained ML Inference)"
+  }
+]

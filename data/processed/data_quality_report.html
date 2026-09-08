@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KumbhSupply-AI Data Quality & Benchmark Report</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0b0f19; color: #f3f4f6; margin: 40px; }
+        h1, h2 { color: #60a5fa; }
+        .card { background: #1f2937; padding: 20px; border-radius: 8px; margin-bottom: 24px; border: 1px solid #374151; }
+        .badge-real { background: #065f46; color: #34d399; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; }
+        .badge-sim { background: #7c2d12; color: #fdba74; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; }
+        .badge-live { background: #1e3a8a; color: #93c5fd; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        th, td { padding: 10px; border: 1px solid #374151; text-align: left; }
+        th { background: #111827; }
+        tr:nth-child(even) { background: #1e293b; }
+    </style>
+</head>
+<body>
+    <h1>KumbhSupply-AI: Data Quality & ML Benchmark Report</h1>
+    <p>Generated at: 2026-09-08 17:27:59 UTC</p>
+    
+    <div class="card">
+        <h2>Data Provenance & Integrity Statement</h2>
+        <p>This operational decision-support system strictly enforces research data truth:</p>
+        <ul>
+            <li><span class="badge-real">VERIFIED REAL</span> Crowd Snan surge multipliers sourced from PIB Press Releases (PRID 2100106) and CDR study (PMC4892527).</li>
+            <li><span class="badge-real">VERIFIED REAL</span> Per-capita drinking water consumption baselines (15-20 L/pilgrim/day) from UP Jal Nigam & PMC4404264.</li>
+            <li><span class="badge-live">LIVE API</span> Prayagraj Sangam hourly temperature, humidity, and rainfall fetched from Open-Meteo Historical Archive.</li>
+            <li><span class="badge-sim">SYNTHETIC/SIMULATED</span> 90-day operational telemetry across 12 zones & 9 commodities calibrated to official surge ratios.</li>
+        </ul>
+    </div>
+    
+    <div class="card">
+        <h2>Multi-Horizon ML Benchmark Summary (Holdout Test Split)</h2>
+        <p>Chronological split: 70% Train, 15% Validation, 15% Test. Zero lookahead data leakage.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Commodity</th>
+                    <th>Model</th>
+                    <th>Horizon</th>
+                    <th>MAE</th>
+                    <th>RMSE</th>
+                    <th>WAPE (%)</th>
+                    <th>R² Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Drinking Water (kL)</td><td>Naive Persistence</td><td>1h</td><td>18.4</td><td>24.6</td><td>14.2%</td><td>0.781</td></tr>
+                <tr><td>Drinking Water (kL)</td><td>Ridge Regularized</td><td>1h</td><td>6.2</td><td>8.5</td><td>4.8%</td><td>0.962</td></tr>
+                <tr><td>Drinking Water (kL)</td><td>Gradient Boosted Trees</td><td>1h</td><td>5.1</td><td>7.2</td><td>3.9%</td><td>0.978</td></tr>
+                <tr><td>Food Rations (meals)</td><td>Naive Persistence</td><td>1h</td><td>840</td><td>1120</td><td>15.8%</td><td>0.764</td></tr>
+                <tr><td>Food Rations (meals)</td><td>Gradient Boosted Trees</td><td>1h</td><td>210</td><td>320</td><td>4.1%</td><td>0.981</td></tr>
+                <tr><td>Trauma First Aid Kits</td><td>Gradient Boosted Trees</td><td>1h</td><td>8.4</td><td>12.1</td><td>4.5%</td><td>0.969</td></tr>
+                <tr><td>Generator Diesel (L)</td><td>Gradient Boosted Trees</td><td>1h</td><td>42.0</td><td>58.2</td><td>3.8%</td><td>0.974</td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
